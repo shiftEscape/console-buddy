@@ -25,13 +25,13 @@
     "body": [
       "console.${2|log,error,info,warn,table,count,countReset|}({ ${1:var_name} });"
     ],
-    "description": "String prefix logging preference"
+    "description": "Object format logging preference"
   },
   "console.buddy.time": {
     "prefix": "!cltm",
     "body": [
       "console.time(`${1:How's my speed?}`);",
-      "${2:// Do something...}",
+      "\t${2:// Do something...}",
       "console.timeEnd(`${1:label}`);"
     ],
     "description": "A timer you can use to track how long an operation takes"
@@ -45,18 +45,19 @@
     "prefix": "!clg",
     "body": [
       "console.${3|group,groupCollapsed|}(`${1:group_label}`);",
-      "${2:// Do another logging...}",
+      "\t${2:// Do another logging...}",
       "console.groupEnd();"
     ],
     "description": "Creates a new inline group in the console, causing any subsequent console messages to be indented by an additional level"
   },
   "console.buddy.assert": {
     "prefix": "!cla",
-    "body": ["console.assert(${1:assertion}, ${2:message});"],
+    "body": ["console.assert(${1:assertion}, `${2:message}`, ${3:data});"],
     "description": "Writes an error message to the console if the assertion is false. If the assertion is true, nothing happens"
   },
   "console.buddy.dir": {
     "prefix": "!cld",
-    "body": ["console.${3|dir,dirxml|}(${1:object});"]
+    "body": ["console.${3|dir,dirxml|}(${1:object_name});"],
+    "description": "Displays an interactive list of the properties of the specified JavaScript object"
   }
 }
