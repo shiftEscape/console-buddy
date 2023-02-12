@@ -1,13 +1,21 @@
 {
   "name": "console-buddy",
-  "displayName": "console-buddy",
+  "displayName": "Console Buddy",
   "publisher": "AlvinJamesBellero",
   "description": "Increase your productivity with Console Buddy!",
   "version": "1.0.0",
   "icon": "assets/console-buddy-logo.png",
   "repository": {
+    "type": "git",
     "url": "https://github.com/shiftEscape/console-buddy"
   },
+  "keywords": [
+    "console buddy",
+    "console.log",
+    "console",
+    "logging",
+    "console snippet"
+  ],
   "engines": {
     "vscode": "^1.75.0"
   },
