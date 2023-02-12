@@ -1,0 +1,20 @@
+{
+  "name": "console-buddy",
+  "displayName": "console-buddy",
+  "description": "Increase your productivity with Console Buddy!",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

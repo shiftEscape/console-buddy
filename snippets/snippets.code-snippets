@@ -1,0 +1,62 @@
+{
+  "console.buddy.plain": {
+    "prefix": "!cl",
+    "body": [
+      "console.${2|log,error,info,warn,table,count,countReset|}(`${1:Check your log here!}`);"
+    ],
+    "description": "Plain text logging preference"
+  },
+  "console.buddy.prefix": {
+    "prefix": "!clp",
+    "body": [
+      "console.${3|log,error,info,warn,table,count,countReset|}(`${2:LOG >>>}`, ${1:var_name});"
+    ],
+    "description": "String prefix logging preference"
+  },
+  "console.buddy.var": {
+    "prefix": "!clv",
+    "body": [
+      "console.${2|log,error,info,warn,table,count,countReset|}(${1:var_name});"
+    ],
+    "description": "Variable logging preference"
+  },
+  "console.buddy.object": {
+    "prefix": "!clo",
+    "body": [
+      "console.${2|log,error,info,warn,table,count,countReset|}({ ${1:var_name} });"
+    ],
+    "description": "String prefix logging preference"
+  },
+  "console.buddy.time": {
+    "prefix": "!cltm",
+    "body": [
+      "console.time(`${1:How's my speed?}`);",
+      "${2:// Do something...}",
+      "console.timeEnd(`${1:label}`);"
+    ],
+    "description": "A timer you can use to track how long an operation takes"
+  },
+  "console.buddy.trace": {
+    "prefix": "!cltr",
+    "body": ["console.trace(`${1:How did I get here?}`);"],
+    "description": "Outputs a stack trace into console"
+  },
+  "console.buddy.group": {
+    "prefix": "!clg",
+    "body": [
+      "console.${3|group,groupCollapsed|}(`${1:group_label}`);",
+      "${2:// Do another logging...}",
+      "console.groupEnd();"
+    ],
+    "description": "Creates a new inline group in the console, causing any subsequent console messages to be indented by an additional level"
+  },
+  "console.buddy.assert": {
+    "prefix": "!cla",
+    "body": ["console.assert(${1:assertion}, ${2:message});"],
+    "description": "Writes an error message to the console if the assertion is false. If the assertion is true, nothing happens"
+  },
+  "console.buddy.dir": {
+    "prefix": "!cld",
+    "body": ["console.${3|dir,dirxml|}(${1:object});"]
+  }
+}
