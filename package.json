@@ -9,6 +9,15 @@
     "type": "git",
     "url": "https://github.com/shiftEscape/console-buddy"
   },
+  "author": {
+    "name": "Alvin James Bellero",
+    "email": "ajames.bellero@gmail.com"
+  },
+  "homepage": "https://github.com/shiftEscape/console-buddy/blob/master/README.md",
+  "galleryBanner": {
+    "color": "#1E1328",
+    "theme": "dark"
+  },
   "keywords": [
     "console buddy",
     "console.log",
