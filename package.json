@@ -3,7 +3,7 @@
   "displayName": "Console Buddy",
   "publisher": "AlvinJamesBellero",
   "description": "Increase your productivity with Console Buddy!",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "icon": "assets/console-buddy-logo.png",
   "repository": {
     "type": "git",
