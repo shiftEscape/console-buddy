@@ -21,7 +21,7 @@ Below is a list of all available snippets and the triggers of each one. The (`�
 
 | Trigger  | Resulting Snippet — Description                                                                                                                                              |
 | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `!cl→`   | `` console.log(`Check your log here`); `` — Plain text logging preference (`log`, `error`, `info`, `warn`, `table`, `count`, `countReset`)                                   |
+| `!cl→`   | `` console.log(`Check your log here`); `` — Plain text logging preference<br>Options: (`log`, `error`, `info`, `warn`, `table`, `count`, `countReset`)                       |
 | `!clp→`  | `` console.log(`LOG >>>`, var_name); `` — String prefix logging preference                                                                                                   |
 | `!clv→`  | `console.log(var_name);` — Variable logging preference                                                                                                                       |
 | `!clo→`  | `console.log({ var_name });` — Object format logging preference                                                                                                              |
