@@ -3,7 +3,7 @@
   "displayName": "Console Buddy",
   "publisher": "AlvinJamesBellero",
   "description": "Increase your productivity with Console Buddy!",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "icon": "assets/console-buddy-logo.png",
   "repository": {
     "type": "git",
@@ -13,9 +13,12 @@
     "name": "Alvin James Bellero",
     "email": "ajames.bellero@gmail.com"
   },
+  "sponsor": {
+    "url": "https://github.com/sponsors/shiftEscape"
+  },
   "homepage": "https://github.com/shiftEscape/console-buddy/blob/master/README.md",
   "galleryBanner": {
-    "color": "#1E1328",
+    "color": "#16a085",
     "theme": "dark"
   },
   "keywords": [
